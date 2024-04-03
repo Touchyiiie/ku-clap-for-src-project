@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import styled from 'styled-components';
 
-const StyledContainer = styled.div`
+const StyledContainer = styled.div`   
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,7 +19,7 @@ const StyledH2 = styled.h2`
   text-align: left;
 `;
 
-const StyledButton = styled.button`
+const StyledButton = styled.button`    //(requests ออกแบบปุ่มดีมากครับ)
   margin-top: 10px;
   margin-bottom: 10px;
   opacity: ${({ isActive }) => (isActive ? "1" : "0.5")};
